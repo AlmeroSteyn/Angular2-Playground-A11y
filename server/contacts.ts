@@ -1,57 +1,26 @@
 module.exports = [
   {
     id: 0,
-    firstname: 'John',
-    lastname: 'Smith',
+    name: 'The Moat Monster',
+    imageUrl: '/images/monsterdog.jpg',
+    imageText: 'Moat monster attacking'
   },
   {
-    id: 1,
-    firstname: 'Jack',
-    lastname: 'Jones',
+    id: 0,
+    name: 'The Hypno Cat',
+    imageUrl: '/images/hypnocat.jpg',
+    imageText: 'Hypnotic cat in action'
   },
   {
-    id: 3,
-    firstname: 'Elvis',
-    lastname: 'Presley',
+    id: 0,
+    name: 'The Cat of Disaproval',
+    imageUrl: '/images/catofdisaproval.jpg',
+    imageText: 'The cat of disaproval in action'
   },
   {
-    id: 4,
-    firstname: 'Jill',
-    lastname: 'Johnson',
-  },
-  {
-    id: 5,
-    firstname: 'Mark',
-    lastname: 'Zulu',
-  },
-  {
-    id: 6,
-    firstname: 'Jason',
-    lastname: 'Voorhees',
-  },
-  {
-    id: 7,
-    firstname: 'Freddy',
-    lastname: 'Kreuger',
-  },
-  {
-    id: 8,
-    firstname: 'Michael',
-    lastname: 'Myers',
-  },
-  {
-    id: 9,
-    firstname: 'Jim',
-    lastname: 'Turner',
-  },
-  {
-    id: 10,
-    firstname: 'Lara',
-    lastname: 'Samson',
-  },
-  {
-    id: 11,
-    firstname: 'Wilfred',
-    lastname: 'Roberts',
+    id: 0,
+    name: 'The Honeybadger',
+    imageUrl: '/images/monsterdog.jpg',
+    imageText: 'The honeybadger not caring'
   }
 ];
