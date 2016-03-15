@@ -6,12 +6,12 @@
     <header>
       <h2>In just the past month these creatures were spotted living in our houses!</h2>
     </header>
-    <article>
+    <article *ngFor="#monster of monsters | async">
       <header>
-        <h3>The Moat Monster</h3>
+        <h3>{{monster.name}}</h3>
         <figure>
-          <img src="/images/monsterdog.JPG" alt="Moat monster attacking.">
-          <figcaption>Test</figcaption>
+          <img [src]="monster.imageUrl" [alt]="monster.imageText">
+          <!--<figcaption>Test</figcaption>-->
         </figure>
         <button class="btn btn-primary">Report Moat Monster Sighting</button>
       </header>

@@ -5,11 +5,12 @@ import {RouteConfig} from "angular2/router";
 import {A11yFailed} from "./a11y-failed.component";
 import {A11yPassed} from "./a11y-passed.component";
 import {HTTP_PROVIDERS} from "angular2/http";
+import {A11yMonsters} from "../services/a11y-monsters.service";
 
 @Component({
   selector: 'a11y-demo',
   template: '<router-outlet></router-outlet>',
-  providers: [ROUTER_PROVIDERS, HTTP_PROVIDERS],
+  providers: [ROUTER_PROVIDERS, HTTP_PROVIDERS, A11yMonsters],
   directives: [ROUTER_DIRECTIVES]
 })
 @RouteConfig([

@@ -20,7 +20,7 @@ module.exports = [
   {
     id: 0,
     name: 'The Honeybadger',
-    imageUrl: '/images/monsterdog.jpg',
+    imageUrl: '/images/honeybadger.jpg',
     imageText: 'The honeybadger not caring'
   }
 ];
