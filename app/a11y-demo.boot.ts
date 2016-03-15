@@ -1,5 +1,5 @@
 import {bootstrap} from "angular2/platform/browser";
 import "rxjs/add/operator/map";
-import {QaDemo} from "./components/qa-demo.component";
+import {A11yDemo} from "./components/a11y-demo.component";
 
-bootstrap(QaDemo);
+bootstrap(A11yDemo);
