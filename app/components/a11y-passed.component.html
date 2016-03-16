@@ -2,19 +2,5 @@
   <h1>Monsters live amongst us!</h1>
 </header>
 <main>
-  <section>
-    <header>
-      <h2>In just the past month these creatures were spotted living in our houses!</h2>
-    </header>
-    <article *ngFor="#monster of monsters | async">
-      <header>
-        <h3>{{monster.name}}</h3>
-        <figure>
-          <img [src]="monster.imageUrl" [alt]="monster.imageText">
-          <!--<figcaption>Test</figcaption>-->
-        </figure>
-        <button class="btn btn-primary">Report Moat Monster Sighting</button>
-      </header>
-    </article>
-  </section>
+ <a11y-passed-monsters></a11y-passed-monsters>
 </main>
