@@ -12,8 +12,8 @@ export class A11yMonsters {
   }
 
   getMonsters():Observable<IMonster[]> {
-    return this.http.get(`${this.API_ENDPOINT}/contacts`)
-    .map(res => res.json().items);
+    return this.http.get(`${this.API_ENDPOINT}/monsters`)
+    .map(res => res.json().monsters);
   }
 
 }

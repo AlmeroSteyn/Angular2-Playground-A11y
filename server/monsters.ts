@@ -1,25 +1,25 @@
 module.exports = [
   {
     id: 0,
-    name: 'The Moat Monster',
+    name: 'Moat Monster',
     imageUrl: '/images/monsterdog.jpg',
     imageText: 'Moat monster attacking'
   },
   {
-    id: 0,
-    name: 'The Hypno Cat',
+    id: 1,
+    name: 'Hypno Cat',
     imageUrl: '/images/hypnocat.jpg',
     imageText: 'Hypnotic cat in action'
   },
   {
-    id: 0,
-    name: 'The Cat of Disaproval',
+    id: 2,
+    name: 'Cat of Disaproval',
     imageUrl: '/images/catofdisaproval.jpg',
     imageText: 'The cat of disaproval in action'
   },
   {
-    id: 0,
-    name: 'The Honeybadger',
+    id: 3,
+    name: 'Honeybadger',
     imageUrl: '/images/honeybadger.jpg',
     imageText: 'The honeybadger not caring'
   }
