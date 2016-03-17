@@ -1,4 +1,0 @@
-<div>
-  <h1>This is the page of {{(itemEntry | async)?.firstname}} {{(itemEntry | async)?.lastname}}</h1>
-</div>
-<qa-demo-edit-person  [person]="itemEntry | async" (onChange)="save($event)"></qa-demo-edit-person>
