@@ -1,15 +1,14 @@
 <article class="well">
-  <header>
+  <header class="row text-center">
     <h3>The {{internalMonster?.name}}</h3>
+  </header>
     <div class="row">
-      <figure class="col-xs-6">
-        <img [src]="internalMonster?.imageUrl" [alt]="internalMonster?.imageText">
+      <figure class="col-xs-12 col-lg-6">
+        <img class="center-block" [src]="internalMonster?.imageUrl" [alt]="internalMonster?.imageText">
         <!--<figcaption>Test</figcaption>-->
       </figure>
-      <div col-xs-6>
-        <button class="btn btn-primary">Report {{internalMonster?.name}} Sighting</button>
+      <div class="col-xs-12 col-lg-6 center-block">
+        <button class="btn btn-primary center-block">Report {{internalMonster?.name}} Sighting</button>
       </div>
     </div>
-
-  </header>
 </article>

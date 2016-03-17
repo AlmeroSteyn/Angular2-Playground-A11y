@@ -3,6 +3,6 @@
     <h2>In just the past month these creatures were spotted living in our houses!</h2>
   </header>
   <div class="row" *ngFor="#monster of (monsters | async) ; #i = index;">
-    <a11y-passed-monster class="col-sm-6" [monster]="monster"></a11y-passed-monster>
+    <a11y-passed-monster class="col-sm-12" [monster]="monster"></a11y-passed-monster>
   </div>
 </section>
