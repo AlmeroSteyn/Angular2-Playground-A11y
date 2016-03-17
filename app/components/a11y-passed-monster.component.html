@@ -1,10 +1,10 @@
 <article class="well">
   <header>
-    <h3>{{monster.name}}</h3>
+    <h3>{{internalMonster?.name}}</h3>
     <figure>
-      <img [src]="monster.imageUrl" [alt]="monster.imageText">
+      <img [src]="internalMonster?.imageUrl" [alt]="internalMonster?.imageText">
       <!--<figcaption>Test</figcaption>-->
     </figure>
-    <button class="btn btn-primary">Report {{monster.name}} Sighting</button>
+    <button class="btn btn-primary">Report {{internalMonster?.name}} Sighting</button>
   </header>
 </article>
