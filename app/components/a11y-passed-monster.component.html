@@ -8,7 +8,15 @@
         <!--<figcaption>Test</figcaption>-->
       </figure>
       <div class="col-xs-12 col-lg-6 center-block">
-        <button class="btn btn-primary center-block">Report {{internalMonster?.name}} Sighting</button>
+        <div class="row">
+          <div class="col-xs-12">
+            <button class="btn btn-primary center-block form-control">Report {{internalMonster?.name}} Sighting</button>
+          </div>
+          <div class="col-xs-12">
+            <span>{{internalMonster?.desc}}</span>
+          </div>
+        </div>
+
       </div>
     </div>
 </article>

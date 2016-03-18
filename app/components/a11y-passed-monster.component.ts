@@ -16,7 +16,12 @@ export class A11yPassedMonster implements OnChanges{
   ngOnChanges(changes:any):void {
     var monsterChange:IMonster = changes.monster.currentValue;
     if (monsterChange) {
-      this.internalMonster = new Monster(monsterChange.id, monsterChange.name, monsterChange.imageUrl,monsterChange.imageText);
+      this.internalMonster = new Monster(
+        monsterChange.id,
+        monsterChange.name,
+        monsterChange.imageUrl,
+        monsterChange.imageText,
+        monsterChange.desc);
     }
   }
 
