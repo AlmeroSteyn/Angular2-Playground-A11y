@@ -21,7 +21,7 @@ module.exports = [
     imageUrl: '/images/fhgdsh8u98432frdsiur4583rewhsfeuwr.jpg',
     imageText: 'The cat of disaproval in action',
     desc: 'Had a successful week at work? This monster will suck your joy by scowling in the general direction of all your successes.',
-    sightings: 9
+    sightings: 12
   },
   {
     id: 3,

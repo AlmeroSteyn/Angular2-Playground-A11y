@@ -9,7 +9,13 @@
     <div class="container">
         <div class="navbar-header"><h1>Monsters live amongst us!</h1></div>
     </div>
+   <div class="row">
+     <div *ngFor="#sighting of sightings | async" class="col-xs-3">
+       {{sighting | json}}
+     </div>
+   </div>
 </header>
+
 <main class="container">
     <a11y-passed-monsters></a11y-passed-monsters>
 </main>

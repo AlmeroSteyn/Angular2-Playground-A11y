@@ -40,7 +40,7 @@ app.put('/monsters/:id', function (req, res) {
   }
 });
 
-app.get('/monsters/sightings', function (req, res) {
+app.get('/sightings', function (req, res) {
   let monsters = db;
   let sightings = [];
   for (var monster of monsters) {
@@ -49,6 +49,19 @@ app.get('/monsters/sightings', function (req, res) {
       name: monster.name,
       sightings: monster.sightings
     });
+  }
+  res.json(multipleSightingsReponse(sightings));
+});
+
+app.get('/maxsightings', function (req, res) {
+  let monsters = db;
+  let sightings = [];
+  for (var monster of monsters) {
+    if (sightings.length === 0 || monster.sightings > sightings[0].sightings) {
+      sightings = [monster];
+    } else if (monster.sightings === sightings[0].sightings) {
+      sightings.push(monster);
+    }
   }
   res.json(multipleSightingsReponse(sightings));
 });

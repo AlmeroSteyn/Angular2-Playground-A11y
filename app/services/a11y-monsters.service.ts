@@ -22,4 +22,9 @@ export class A11yMonsters {
       .map(res => res.json().sightings);
   }
 
+  getMaxSightings(): Observable<ISighting[]> {
+    return this.http.get(`${this.API_ENDPOINT}/maxsightings`)
+      .map(res => res.json().sightings);
+  }
+
 }
